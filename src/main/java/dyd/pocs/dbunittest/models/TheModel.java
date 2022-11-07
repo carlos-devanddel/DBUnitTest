@@ -1,18 +1,8 @@
 package dyd.pocs.dbunittest.models;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.Id;
-import javax.persistence.Table;
 
-@Entity
-@Table(name = "MODELS")
 public class TheModel {
-
-	@Id
-	@Column(name = "ID")
 	private Integer id;
-	@Column(name = "DESCRIPTION")
 	private String description;
 
 	public TheModel() {}
